@@ -7,7 +7,7 @@ FRAME_T = 0.01  # time taken between each frame of fade
 
 # transparency values
 CON_AC     = 1     # active window
-CON_INAC   = 0.5   # inactive window
+CON_INAC   = 0.85   # inactive window
 FLOAT_AC   = 1     # active floating window
 FLOAT_INAC = 0.5  # inactive floating window
 BOT_INAC   = 0.9   # bottom window
@@ -226,4 +226,3 @@ def change_opacity(win, trans):
 
 if __name__ == "__main__":
     Fader()
-

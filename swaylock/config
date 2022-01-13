@@ -1,0 +1,24 @@
+# indicator
+# no-unlock-indicator
+# daemonize
+indicator-caps-lock
+# datestr=%A
+image=$HOME/fondo/catppuccin_triangle.png
+scaling=fill
+font=Cartograph CF
+font-size=20
+
+# Ring
+indicator-radius=115
+# line-uses-ring
+line-color=#B7E5E6
+text-color=#15121C
+inside-color=#C6AAE8
+inside-ver-color=#A3B9EF
+line-ver-color=#A3B9EF
+ring-ver-color=#B7E5E6
+ring-color=#C6AAE8
+key-hl-color=#A3B9EF
+separator-color=#988BA2
+layout-text-color=#15121C
+line-wrong-color=#E38C8F

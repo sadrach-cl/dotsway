@@ -1,0 +1,49 @@
+/*
+Arc-Dark Color Scheme
+*/
+
+{
+    font-family: Cartograph CF;
+}
+
+#window {
+	  border: 1px solid #E38C8F;
+    margin: 2px 2px 2px 2px;
+
+}
+
+#inner-box {
+    background-color: #1B1923;
+
+}
+
+#outer-box {
+  margin: 5px;
+  padding:10px;
+  background-color: #1B1923;
+	margin-top: -22px;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: #DFDEF1;
+}
+
+#entry:nth-child(even){
+    background-color: #15121C;
+}
+
+#entry {
+    background-color: #332E41;
+}
+
+#entry:selected {
+    background-color: #E38C8F;
+}
+
+#text:selected {
+  color: #1B1923;
+}

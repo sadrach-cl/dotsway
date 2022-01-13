@@ -3,7 +3,7 @@
 	"layer": "top",   
       	"position": "top",
 	// If height property would be not present, it'd be calculated dynamically
-     "height": 25,
+     "height": 30,
      "width" : 10,
  
     	"modules-left": [
@@ -16,20 +16,20 @@
       	],
  
     	"modules-right": [
-                //"network",
+                "network",
 	        "idle_inhibitor",
-	        //"memory",
-	        //"cpu",
+	        "memory",
+	        "cpu",
 	        // "custom/weather",
 	        "pulseaudio",
 	        "custom/keyboard-layout",
-	        //"battery",
+	        "battery",
                 //"custom/PBPbattery",
 	        "backlight#icon",
                 "backlight#value",
 	        "clock",
 	        "tray",
-                //"custom/weather",
+                "custom/weather",
 	        "custom/power",
      	],
  
@@ -67,7 +67,7 @@
  
 "clock": {
       	"interval": 10,
-      	"format-alt": "{:%e %b %Y}", // Icon: calendar-alt
+      	"format-alt": " {:%e %b %Y}", // Icon: calendar-alt
       	"format": "{:%H:%M}",
       	"tooltip-format": "{:%e %B %Y}"
 },
@@ -136,7 +136,7 @@
          //"format":"{icon}",
          "format-icons": {
              "1": "",
-             "2": "",
+             "2": "",
              "3": "",
              "4": "",
           }
@@ -178,7 +178,7 @@
  
 "backlight#icon": {
     	"format": "{icon}",
-    	"format-icons": [""],
+    	"format-icons": [""],
     	"on-scroll-down": "brightnessctl -c backlight set 1%-",
     	"on-scroll-up": "brightnessctl -c backlight set +1%"
 },
@@ -191,8 +191,8 @@
 },
 
 "custom/firefox": {
-    	"format": "",
-    	"on-click": "exec google-chrome",
+    	"format": " ",
+    	"on-click": "exec firefox",
     	"tooltip": false
 },
  
@@ -203,8 +203,8 @@
 },
  
 "custom/files": {
-    	"format": "",
-    	"on-click": "exec /usr/bin/nautilus",
+    	"format": " ",
+    	"on-click": "exec thunar",
     	"tooltip": false
 },
  
